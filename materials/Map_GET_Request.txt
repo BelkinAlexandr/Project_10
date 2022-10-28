@@ -1,0 +1,16 @@
+GET https://api-maps.yandex.ru/services/search//v2/?callback=id_165340332569485633927&text=54.70707225912512%2C20.502226876620075&format=json&rspn=0&lang=ru_RU&token=e6dd3051ac3eb2cb7215be69b47ca15c&type=geo&properties=addressdetails&geocoder_sco=latlong&origin=jsapi2Geocoder&apikey=47042de8-7735-4996-8e28-7cd4a1caeb11 HTTP/1.1
+Host: api-maps.yandex.ru
+Connection: keep-alive
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="98", "Microsoft Edge";v="98"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://sbermarket.ru/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: yandexuid=9859100621653283891; yuidss=9859100621653283891; i=AeRvii6ZRSH05+I59QU1Dkg/AabhUSqlSZ1geuWQC17bQEptS189FlnCeuQ75qVK03Uhe+J9tl2dtqUnlLDUvuTWwgk=; ymex=1968643891.yrts.1653283891#1968643891.yrtsi.1653283891
+

@@ -1,0 +1,21 @@
+PUT https://sbermarket.ru/api/phone_confirmations/79691230463 HTTP/1.1
+Host: sbermarket.ru
+Connection: keep-alive
+Content-Length: 76
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="98", "Microsoft Edge";v="98"
+Accept: application/json, text/plain, */*
+Content-Type: application/json;charset=UTF-8
+X-CSRF-Token: onwfJfcAXxXxEvzGMsNJICCMmtoelbQ0XlW2VjxGXkvoA8ac+WRBZrh8eqCR2Hd8MAHwQEC+hqaBxq0mo/+zlw==
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50
+sec-ch-ua-platform: "Windows"
+Origin: https://sbermarket.ru
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://sbermarket.ru/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: external_analytics_anonymous_id=62e6ad66-f34d-44f1-be0e-3950a0d00124; _pk_id.6.3ec0=1537801dc2f1e60e.1653283867.; rl_group_id=RudderEncrypt%3AU2FsdGVkX1%2BzOqnOaXQl39i9iVxo63ZarSaA52%2FGqCc%3D; rl_group_trait=RudderEncrypt%3AU2FsdGVkX1%2BUQMDGN4%2B%2BASlzSgfIErBkGEjdZnSzSrQ%3D; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX1%2FByEfMRpKNFQKJ2spR%2B5XC9uugEqjTepBj8FW6n7dRh5ajGMwJH6uS; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX18tSc%2Bgsv0gemp7nIUaN5bSMcyOQbCcvAI%3D; _gcl_au=1.1.1976985024.1653283869; pageviewCount=1; _sa=SA1.b6a06023-a708-44ed-ac0f-3a1987d54f84.1653283868; __exponea_etc__=874572fa-b547-4e42-94ec-75908fc7f6c2; _ga_XVJWMHHXNJ=GS1.1.1653283868.1.0.1653283868.0; _ga_9QYWDVGJZ3=GS1.1.1653283868.1.0.1653283868.60; _ga=GA1.2.804421798.1653283870; siteEntryTime=Mon%20May%2023%202022%2008%3A31%3A11%20GMT%2B0300%20(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D0%BE%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F); tmr_lvid=90422dc3042296a0735a92425ef41573; tmr_lvidTS=1653283873751; iap.uid=5d7eea3dea4e4aa5818c08b6e3632c2f; _ym_uid=1653283890349604686; _ym_d=1653283890; top100_id=t1.7588506.131339165.1653283890062; adtech_uid=d9578422-b49d-4a8f-8ce6-d742163960ff%3Asbermarket.ru; t2_sid_7588506=s1.1297912147.1653283890066.1653283890085.1.1.1.1; user-id_1.0.5_lr_lruid=pQ8AADIci2Ksi0TuAXp1SQA%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX19V%2BwvzQv99Pd1AR0yZTkubIi4F5BM91IOusH3mrhaEXJy9kT25JCGnmrl9U3SoxO1gIuix8Ktlnw%3D%3D; adrcid=AOncgblLxtgOeCo6evAqBJA; reachedTimer=1; tmr_reqNum=10; _pk_ses.6.3ec0=1; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BW1hoDoraSDOOIPWTFEapjvYjB6HZNkqk%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2B1TY0gp3Dt23gWZp885SuWXwqOTnv6txLaCtRvtiYIzy7eOyqPQfz3G62NBYBL7EPrInjDsjoKlyOFCO77BJ2FkrDJhPZacq8CYelVU5xdmZ8Dab8C7SbE8FBJNeoIJaNsxgu%2B%2F5zyLr0Yabj8UiKPsPrFYreAKL%2FgfbUBbz1etQ44A1th3OEa; sessionId=16534032998988793216; _Instamart_session=eXJHbGNWTXFhYUNlRzlWQ2hKSDRaNVFlMHdQS1hmQ2pwTnkrVCt4c3BBQVVxN0dCT3pBZXRKSEk5VFRuVndpWGtveTVBeTZmQUZHOHFhM2NqSVhnRisxVVpUaDBVMUN2cVVSNEJPQTFzaUU4TU9TMWVKMGxMSjl2T051ODlvY1NSaWtpWktTOU13RUZxNXo4OEFWSXNEay8vZlJJbkp4ZVFvbktCaDUvTnZSTkZsdFZWTW9NNG56Q010ZXRGMk1GblpUcUFFUU5kaHRXMHU2SmJqNng5M0RUWit6WTFxejVWbXFCNDBBSllGdGlHTytXdU14d0RRNGdzQnpwTWRRWXVEU3Y2cVhyOHNhdGEwZWpxU3VOOVE9PS0tM0pOaVZldndkYmVWalNUQlF0aXRCUT09--ab67ac69bc77613380f0ffd5c41d387a5e3e7740
+
+{"phone_confirmation_code":"457065","promo_terms_accepted":true,"b2b":false}

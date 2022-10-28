@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 24 May 2022 14:41:47 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+etag: W/"de3a15bddb48a25155452a1b017b1119"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _Instamart_session=eXJHbGNWTXFhYUNlRzlWQ2hKSDRaNVFlMHdQS1hmQ2pwTnkrVCt4c3BBQVVxN0dCT3pBZXRKSEk5VFRuVndpWGtveTVBeTZmQUZHOHFhM2NqSVhnRisxVVpUaDBVMUN2cVVSNEJPQTFzaUU4TU9TMWVKMGxMSjl2T051ODlvY1NSaWtpWktTOU13RUZxNXo4OEFWSXNEay8vZlJJbkp4ZVFvbktCaDUvTnZSTkZsdFZWTW9NNG56Q010ZXRGMk1GblpUcUFFUU5kaHRXMHU2SmJqNng5M0RUWit6WTFxejVWbXFCNDBBSllGdGlHTytXdU14d0RRNGdzQnpwTWRRWXVEU3Y2cVhyOHNhdGEwZWpxU3VOOVE9PS0tM0pOaVZldndkYmVWalNUQlF0aXRCUT09--ab67ac69bc77613380f0ffd5c41d387a5e3e7740; path=/; HttpOnly; SameSite=Lax
+x-request-id: 3cdcb863d45c3c559836e7702b311ed5
+x-runtime: 0.055276
+vary: Origin
+strict-transport-security: max-age=631138519
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: frame-ancestors 'self'
+Content-Length: 17
+
+{"code_length":6}

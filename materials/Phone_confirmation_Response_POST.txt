@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 22 May 2022 14:36:21 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+etag: W/"c668a2ff25107beda0b27049a1e46c0f"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: remember_user_token=BAhbCFsGaQOZ1B1JIhkxRWN5bVhOQk11bnJIOVo2Q3N5SwY6BkVGSSIXMTY1MzIzMDE4MS4xNzg1NzEyBjsARg%3D%3D--553fdb356dc7572d3a42727ac3b891cf40728d7a; path=/; expires=Sun, 05 Jun 2022 14:36:21 -0000; HttpOnly
+set-cookie: _Instamart_session=RlExa2x2Zys4T25ZUmZET04zQS9YWnA2QWtUYmpFazB3bnJRUitzUERxMlM3UG1Ib3Badk9YN1BzQnB2QkgyNENYTG82bWp6ZU9XSWFVcUNzeElMeGY1Mkl1dm10YmFEc0VVelpCM1N4MUZ4NVlZZVhLclhJZmVnejI5RGQ2S3N6UEFDcExEM3l1QmlTUHo4VnR2SlZvbjA5cFkyS2g4azdhTk1qSTlLTVp3cXVSUjA2d3hNRXNFTEgxSFRydkVGWVFFU09sSFVVK3pZM0s0YW5JS3F4Q0M5NUxWYXlkbHVQYm85aXk1TktYaVhFbUI5dGg3UGZDcEtxcmVVNEVKcGtnQ0NDTWlsNjlTUWZsbFhoMkN0LzZjL1RXSmN2UEpmb25BR0FyVmQvL3hmTk94SWNqWnFTNmxUbkVQZnh3OCs2SWxldWpDUlRWR2twdkJMYkh4ZjN2M1VPMzlEeVhRS3ZKWmZ3UEE3b2JRdE43N09VdFc5V0t5WUVieUVoeWZFK0tIaC95dE5MUUlYdFNYWm5mL3Y1UT09LS1oZG8zcit0SnB5QkNkUDFTMVBMcDNRPT0%3D--ff90bd1eb14d7065344ec1aadfd5b36ff49fb1a6; path=/; HttpOnly; SameSite=Lax
+x-request-id: 72ed88a703d5c0c0977d0455faf761bd
+x-runtime: 0.125740
+vary: Origin
+strict-transport-security: max-age=631138519
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: frame-ancestors 'self'
+Content-Length: 719
+
+{"is_registration":false,"user":{"id":1954969,"email":"tvale@mail.ru","display_email":"tvale@mail.ru","email_md5":"5ff75838fa66fa3a024844be3badeb5a","first_name":"Татьяна","last_name":"Рыжuuuuuu","fullname":"Татьяна Рыжuuuuuu","phone":"+7 969 123-04-63","is_admin":false,"uuid":"0a194e0f-6e39-4126-b055-383810ce7976","external_uuid":"0a194e0f-6e39-4126-b055-383810ce7976","promo_terms_accepted":true,"promo_terms_changed_at":"2022-05-22T16:31:25.000+03:00","privacy_terms":false,"shipped_and_paid_orders_count":82,"b2b":false,"has_confirmed_phone":true,"auth_services_for_attach":[],"roles":[]},"csrf_token":"M8bu+hKUf/GOsESJW5TnQ7kIUX0ljNx8FMlCuUZwQ44hi0G+Qny/BybyOsjveFSCm1q61BGFixzxnFwV64AOsw=="}

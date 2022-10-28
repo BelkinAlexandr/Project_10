@@ -1,0 +1,20 @@
+HTTP/1.1 422 Unprocessable Entity
+Server: nginx
+Date: Sun, 29 May 2022 16:06:53 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+cache-control: no-cache
+set-cookie: _Instamart_session=UGhSeVdvMHhYcjBLendQQjJURHcrdi9CV2g4ekE5czRBL2lEK1NOb3pGR3E5bVhVS0l5eEdIVEIwRW9MRW9iR0lLeHc1L0NsYzRlMHFwaDVFaHA5Mmd2TTYzbThFMFpRV1k3ck9nbW95bVQ5bFZTQ1EzZkxmNWFLeTYwbFZ6WVNNZk1OYXF0dndYdEFuMk84WHdvdlBmWTZzV2gwcUJvVXNPbWZnN0hjZzl3STl0UGZTRC9YSGJRUTFxcXR2dGU0L1I2MnlLTE93M3FFUlBVdmIrTjdSUHFiSnI5QS9lTHIyUyszemZpRXJEeDRSVUlOWmtRVi9COXNDd1M4NHhRKzI3Q083TEZFZkhRZGI1K3NLbHBBcGN0WEMzWDBLcnQ0aTR3TURGdzhZUnhwVVZIaXViZ2J4c3FqazZxcXkrYXE3Zjg0ZElIR2RZb2NsOFdYeW1PZy9meFVRL2l2cVQzS21BaDJIK0NIcXZHWGVVZ21TalJ0Ty9hRUZGVXFGUnhXTWFQV0ZuYm1tckd2dlVxSXVmNzVXZz09LS0xVkpPL2ZVcXhqZHlaN1pxWDE1UFRnPT0%3D--d33ad283af6efeb825046a33de77306c5976a975; path=/; HttpOnly; SameSite=Lax
+x-request-id: 4778fc20c8e7efb216699fb3c58bac90
+x-runtime: 0.149697
+vary: Origin
+strict-transport-security: max-age=631138519
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: frame-ancestors 'self'
+Content-Length: 54
+
+{"error":"Промокод не существует"}

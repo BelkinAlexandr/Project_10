@@ -1,0 +1,52 @@
+POST https://sbermarket.ru/api/coupon_code/apply HTTP/1.1
+Host: sbermarket.ru
+Connection: keep-alive
+Content-Length: 18
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="98", "Microsoft Edge";v="98"
+Accept: application/json, text/plain, */*
+Content-Type: application/json;charset=UTF-8
+X-CSRF-Token: 5wY8Kn5SkjndEE57XU4FkzxHqnuIL2SL8iAPaGApR42aZL2uoMuREKiRyOljmqF4Q9x2q5iG0cXEe1U0wdIwmg==
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50
+sec-ch-ua-platform: "Windows"
+Origin: https://sbermarket.ru
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://sbermarket.ru/checkout/edit
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: external_analytics_anonymous_id=637da41c-c479-46f2-b984-05004777a577; city_info=%7B%22slug%22%3A%22moscow%22%2C%22name%22%3A%22%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%22%2C%22lat%22%3A55.7483%2C%22lon%22%3A37.6171%7D; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19vUzDwN1FcAVOQHALfDMjKalffmxVXYPM%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19k8CTSNxld3UO9Ynqp4a6yo8Ya0npU9QA%3D; _pk_id.6.3ec0=804f281a0c28a484.1652936773.; _gcl_au=1.1.1241841319.1652936773; _sa=SA1.152e6734-aeb3-4fe9-8fa7-3ecd42f3e542.1652936772; __exponea_etc__=f2d23d0a-3e8b-4ff8-ad71-cde311b515b6; tmr_lvidTS=1652936775704; tmr_lvid=4c0349cc25f50c9f522ad0c7c957254e; _ym_uid=1652936778397723501; _ym_d=1652936778; iap.uid=3ea1d8e296c34e0d835784c69d0475c2; top100_id=t1.7588506.487642904.1652936777945; adtech_uid=7b13e59a-eb52-40f2-bf5c-d9d9fd947a16%3Asbermarket.ru; user-id_1.0.5_lr_lruid=pQ8AAErQhWIN4Z6hATO2GAA%3D; adrcid=AIdzPIEvdwW9ZReFrV2OhLw; siteEntryTime=Thu%20May%2019%202022%2014%3A52%3A53%20GMT%2B0300%20(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D0%BE%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F); sessionId=16531213876734171793; _pk_ses.6.3ec0=1; _gid=GA1.2.1480802157.1653121454; isRetailersModalReminderShown=1; __exponea_time2__=-1.4493675231933594; identified_address=true; _ym_visorc=b; _ym_isad=1; adrdel=1; reachedTimer=1; hide_pre_replacement_bubble=true; resemble_b2b_tag=true; remember_user_token=BAhbCFsGaQOZ1B1JIhlnRVNmYjFvMlZVMWpIaDdLdG1zRAY6BkVUSSIXMTY1MzEyMzE2Ny45NDQwMDEyBjsARg%3D%3D--29839e2dcf60b11758d3221a631215c76e847599; rl_group_id=RudderEncrypt%3AU2FsdGVkX1%2FCxtDvp0QTxUj6PliA6B5IItFUT3hUI1U%3D; rl_group_trait=RudderEncrypt%3AU2FsdGVkX1%2FVHaLc0eiUdmi%2F%2B1UTF9cSLvE202n0i%2FU%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX18rzMreq%2FD45OGMGVHaTGN4eN%2BBPsstfKCxEMdglRWceWk0pBW5Z3mSFDqQqvXvsXHFza2YW1mjwQ%3D%3D; pageviewCount=3; identified_user=true; _ga_XVJWMHHXNJ=GS1.1.1653121459.2.1.1653123177.0; _ga_9QYWDVGJZ3=GS1.1.1653121459.2.1.1653123178.57; t2_sid_7588506=s1.2138434183.1653121457831.1653123178145.2.17.18.1; tmr_detect=0%7C1653123180331; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BzWJeJaKXV7MYJ44XKsvW7IvjWcformQpi2Z4zGfOn8yrItDohP0bekzRlFh6mfVWb6B2cMX177Q%3D%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX18255lzq9UXn1ls36vnwOQfueKPr1dZJrFszy67sut493Gx5TdKiqBvB6mIUfRbGSNyK5K78wCb%2FwC299e%2FhjF5Q8ZtAPZFPrx%2BBOhBihHfZnUFj%2BgidBl1uWcGcfpp8YmN4rSY6XFggZU2m0XVTpGmdTNdkUUhMvwhUXN%2BittMqzIr9pZu57fbBGDzKeRh2%2BTf9I7RGXj0%2FC1ImqbzgdhjFSfAnSjthunH3xELYtORiMyqgpFlmnV2ulKSIW0hHjD9uD2HI8ZgXEAycpAerHo68%2BbMPiyknGeCNB0ApUEl7VHWA8tPMC3xdc7TVC9SDdVkRbZZqnF3cYf5HVorqvwyO09DytLFZlglWnBB21jbO7aweI2WDUs8uW8ysY3jw4CZBCNqpvft8FvmXBkP3Y0GXCCvjeYAuX%2FHzpQpOzIMauW61haKPMTDm3QtyIYQBBSz0W7yrvREbMeP3NA4BCqVK8pxNbbnIUhaf5gC5S55n%2B6%2BNPFCbtrhMs3mOhrQ43A8XVrwdqwEqt9MbVSucHRdbpR4NFFKuGeX80dj1pzm0pbSaEQVwRd4zWxkgvaRrxAtjunEfCH2mHCrOp8qkRGZW7QwmWWW%2BHxInOT8ZWcDKSbc91TDmf1ueBC5AVN56MoLwpNSEvxg3HAyEIzYJzpRp421mLLP0eT7rjnrUvQmD7ZguHdAdgZ3Twpx9oSGKyIjtO3dvSaz99IPQey7mPpL9hkPEw01ofz%2FUn4mr5eaIylHqYhRLCMo0zwtPOXbOSyht9qOQrbcNtnwdoXyA72eChTf8S2YmNN2vHo1fLPFKhm4GDF0AW5dQ45G1qxk1UyngW71V%2Bl7b7eQNSrAUGaZOePQORxDXjahzN1%2BCYEkof%2BqKhe8F3l%2FQbmELaQkw%2Fhv29sPLTNc%2BsoI4hO3Cuu1nPIEJ2MtxlyzWRMF%2FXQZJ1AB8u2FcVA8sX1Khdz9g6b6ovDDayorGTX9f8kQFjBePwTYDzDEfzrIh1CrQHGfV1TcelBv9i2bPS6ypg5le7V6FTTCIre82A%3D%3D; _Instamart_session=NlhuTVpLN0dnaGczZFJFU2FYbExKbjRRMFJpRHByTjVRUkV2ZHZBL2Z6ckVjT0NWSkhtaWlnQ0pSNEJzb3AvRmRrTTRNTi9XUmw1bFRTemxMWFpiR3FwRjFUUUR1cjBQVTRlZDRoRHlBeTk0N2JRaWdDR1Q2aWpxU0xZU2ZrbHM5cTdVbnI3UnByWHR5M2JkM1J5TVYydTRGa3Y3dFN6dCtNR3F6d3VWMFN0eThlWGc3WGVrRHVNQ0prdDhld3BwdEFVWHlVekhnN2VxY2hkSFVJR0I5bUJRZzJTV1lwV0lialprT3pkeUVLbmRWdnlKZG44M2dvMWdlWDBKcUJlaDJFblh4bkd0ZTZBbVJZbWlGT2Y3Zmd3L3doc3BVL1kzRFVKMmNrZlNMUWc9LS1SZFMzbVJFN1RvaVk3TTEyNjU4c1pBPT0%3D--860c80c61117acb602a51d49000005515348bfbf; _ga=GA1.2.1101139517.1652936775; _gat_%5Bobject%20Object%5D=1; tmr_reqNum=56
+
+{"code":"HELLO20"}
+HTTP/1.1 422 Unprocessable Entity
+
+** ОПИСАНИЕ ОШИБКИ:
+Ошибка 422 (необрабатываемый объект) обозначает ошибку со стороны пользователя, а не API.
+Ошибка 422 появляется если сервер понимает запрос со стороны клиента и может работать с типом содержимого, которые ему предоставил клиент.
+Синтакисис запроса верный, но логическая ошибка делает выполнение запроса невозможным.
+
+**
+
+Server: nginx
+Date: Sat, 21 May 2022 08:53:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+cache-control: no-cache
+set-cookie: _Instamart_session=Q2VVRHdFYm1QaVNDaVhIU3M1Rm9DbzZVVU01T3FCbFFzOEk4Wm5xOFhxNHNwWUJFS25HT3M2Q29iQk0xT2h5T0VGVGRrc0R0UlV1MXV1RllPYmVlcjZJMHRQeitsWUtzSXF0N0wzaGtKNnh4a1E0b295ZExpKzdXQnFxbFZ4eUF1NE9EQXNrZWtNRjdHUjhkQ3c0MDB4UGx2b1Bmc1pPVXdaT2lySVIvSVZGd01ib1g0NnNVbTFHM29JZXkrTW92WlZsN056SkJlNForM2ZTSUZueXVZb0FqcDJNL0FxOGFCQWNodDEyVzBhM0hzcFlBZUxHRUdTQWxpeFpLY0xpM0Q4aHloUVNEcDBSTFlacEFnMVhzeTY5eVJ2d3NTQ2MwVVJvSnRqWW9DOEk9LS1ldWZxb2t5Ni96Y2dRRWFrNTJiWmRBPT0%3D--9382a32e439c8ba01611ef5b9a8c2d5d5da3d7c5; path=/; HttpOnly; SameSite=Lax
+x-request-id: cf5344dde90367ca5744e3a032222cf2
+x-runtime: 0.205822
+vary: Origin
+strict-transport-security: max-age=631138519
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: frame-ancestors 'self'
+
+36
+{"error":"Промокод не существует"}
+0
+

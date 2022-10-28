@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 24 May 2022 19:17:38 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+etag: W/"bbdcb7c6e788e9c6824d3fe0c827af5d"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _Instamart_session=MzdXUTlyUk9hR0laRkhIWVJ1RlVWaXYvcnB2bHJaVk5Td01rd1V3R0Y5TjR2VW8xZTFFRzk4YkxxUjZQMTRITHc1dVBPcU1DOUg5OHhhVjRWQ1U5eXJGeURoeU1va2tlc3BSM3p6UlVJVWg3YzBodHBZMCtjZFByVmowR2lnQ3pMK0oycXJUQTZ0b3lzdVpWcE4va3hPdzFrNHFNRmNtYVhyQnRYcjdsQmFYQzV3eWdEZnJuM2xrS3ExaEh2cmxyYlVUUVg2NkVLYlBrOGNuUk9teVRCQkd0T0xPK3VJOEdGL1lhWUNrTTVSMndUcStEZ1RaSE81ZzJuam84ZzVybmtLWGxSSXhBNU9PSkh6TWhxUkpwZi9vZHZYOFN0WWFRb3F1MU81MmI0OTY0b2krZGVQSVpYa3Y5N2M0TURKZUNyMHpIMzhkOW4wc3hKZU5RQ3ZESjViWTBPTjgzSFdOR0tvYUhuYlZZV1JicWpJOEp3eWpJcW9rdnAvL2JidytwSEEwSDN6bi9KYWlnU0lYbjVWVnEyQT09LS1rRGhQeitia1FDNVZpZHlOUlRBYnRnPT0%3D--a4fc910255df7bfdfdf154b80f2155c615824e18; path=/; HttpOnly; SameSite=Lax
+x-request-id: 7a99c6c85b2e1d449105b30c41af04d3
+x-runtime: 0.288032
+vary: Origin
+strict-transport-security: max-age=631138519
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+content-security-policy: frame-ancestors 'self'
+X-NGENIX-Cache: MISS
+X-NGENIX-Cache: MISS
+Content-Length: 4117
+
+[{"id":"a1ea612b-912e-453a-8a67-fa464b4e1433","store_id":136,"name":"METRO, Калининград, Московский пр.","min_order_amount":1000.0,"min_order_amount_pickup":500.0,"min_first_order_amount":1000.0,"min_first_order_amount_pickup":500.0,"delivery_forecast_text":null,"on_demand":false,"express_delivery":false,"closest_shipping_options":[{"option_id":"by_courier:6d4eed3a-8e63-48d3-aa33-414b9c69a51a","price":0,"starts_at":"2022-05-25T11:00:00.000+03:00","ends_at":"2022-05-25T12:00:00.000+03:00","express_delivery":false,"summary":"завтра 10:00–11:00"}],"shipping_methods":[{"title":"Курьером","type":"by_courier"},{"title":"Курьером для компаний","type":"by_courier_for_companies"}],"labels":[{"uuid":"ec371de1-84c9-4e1c-afc9-4424337fa87f","title":"Алкоголь","subtitle":"","code":"alcohol","icon":"","position":10,"label_store_ids":[136,5386]}],"retailer":{"name":"METRO","slug":"metro","appearance":{"background_color":"#0f447c","image_color":"#0f447c","black_theme":false,"logo_image":"https://storage.yandexcloud.net/sbermarket-prod-data-public/retailer_banners/1/logo_images/Metro.png?1614931245","side_image":"https://storage.yandexcloud.net/sbermarket-prod-data-public/retailer_banners/1/side_images/Img-min.jpg?1617009322"}}},{"id":"41a48403-b1c9-4eee-8a2c-03830f8ba049","store_id":5386,"name":"ВИКТОРИЯ, Калининград, б. Солнечный","min_order_amount":1000.0,"min_order_amount_pickup":500.0,"min_first_order_amount":1000.0,"min_first_order_amount_pickup":500.0,"delivery_forecast_text":null,"on_demand":false,"express_delivery":false,"closest_shipping_options":[{"option_id":"by_courier:bc9f64dd-3c98-4fb6-9f1d-a698ba6f4b8b","price":0,"starts_at":"2022-05-25T11:00:00.000+03:00","ends_at":"2022-05-25T12:00:00.000+03:00","express_delivery":false,"summary":"завтра 10:00–11:00"}],"shipping_methods":[{"title":"Курьером","type":"by_courier"},{"title":"Курьером для компаний","type":"by_courier_for_companies"}],"labels":[{"uuid":"ec371de1-84c9-4e1c-afc9-4424337fa87f","title":"Алкоголь","subtitle":"","code":"alcohol","icon":"","position":10,"label_store_ids":[136,5386]}],"retailer":{"name":"ВИКТОРИЯ","slug":"victoria","appearance":{"background_color":"#c2d840","image_color":"#c2d840","black_theme":true,"logo_image":"https://storage.yandexcloud.net/sbermarket-prod-data-public/retailer_banners/22/logo_images/Viktoriya.png?1610715213","side_image":"https://storage.yandexcloud.net/sbermarket-prod-data-public/retailer_banners/22/side_images/Img.jpg?1607488637"}}},{"id":"05896c8b-02d1-4087-a68b-39a02f2464d8","store_id":20258,"name":"ЕАПТЕКА, Калининград, Артиллерийская","min_order_amount":500.0,"min_order_amount_pickup":0.0,"min_first_order_amount":500.0,"min_first_order_amount_pickup":0.0,"delivery_forecast_text":null,"on_demand":false,"express_delivery":false,"closest_shipping_options":[{"option_id":"by_courier:6cd39169-f9ff-437a-8db4-9075228d14c2","price":0,"starts_at":"2022-05-25T12:00:00.000+03:00","ends_at":"2022-05-25T13:00:00.000+03:00","express_delivery":false,"summary":"завтра 11:00–12:00"}],"shipping_methods":[{"title":"Курьером","type":"by_courier"},{"title":"Курьером для компаний","type":"by_courier_for_companies"}],"labels":[{"uuid":"2bdc9575-8b59-4fb3-bc6d-b6d2fdabcc1d","title":"Аптеки","subtitle":"","code":"pharmacy","icon":"","position":5,"label_store_ids":[20258]},{"uuid":"c438cab1-7818-4c26-99e5-d60381672812","title":"Гипермаркеты","subtitle":"","code":"wide_choice","icon":"wide_choice","position":20,"label_store_ids":[20258]}],"retailer":{"name":"ЕАПТЕКА","slug":"eapteka","appearance":{"background_color":"#ffffff","image_color":"#ffffff","black_theme":true,"logo_image":"https://storage.yandexcloud.net/sbermarket-prod-data-public/retailer_banners/135/logo_images/eapteka.png?1650433653","side_image":"https://storage.yandexcloud.net/sbermarket-prod-data-public/retailer_banners/135/side_images/sberapteka-img-4x.jpg?1646403465"}}}]
